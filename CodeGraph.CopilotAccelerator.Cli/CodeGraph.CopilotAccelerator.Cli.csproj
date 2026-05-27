@@ -2,7 +2,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CodeGraph.CopilotAccelerator.Indexer\CodeGraph.CopilotAccelerator.Indexer.csproj" />
-    <ProjectReference Include="..\CodeGraph.CopilotAccelerator.McpServer\CodeGraph.CopilotAccelerator.McpServer.csproj" />
+    <ProjectReference Include="..\CodeGraph.CopilotAccelerator.Graph.Local\CodeGraph.CopilotAccelerator.Graph.Local.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console.Cli" Version="0.49.1" />
   </ItemGroup>
 
   <PropertyGroup>

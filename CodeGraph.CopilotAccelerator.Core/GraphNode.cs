@@ -9,4 +9,7 @@ public sealed class GraphNode
     public string? FilePath { get; init; }
     public int? LineStart { get; init; }
     public int? LineEnd { get; init; }
+    public string? Project { get; init; }
+    public string? Language { get; init; }
+    public Dictionary<string, string>? Metadata { get; init; }
 }

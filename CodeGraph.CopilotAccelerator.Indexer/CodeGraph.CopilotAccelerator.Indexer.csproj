@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CodeGraph.CopilotAccelerator.Core\CodeGraph.CopilotAccelerator.Core.csproj" />
     <ProjectReference Include="..\CodeGraph.CopilotAccelerator.Graph.Abstractions\CodeGraph.CopilotAccelerator.Graph.Abstractions.csproj" />
+    <ProjectReference Include="..\CodeGraph.CopilotAccelerator.Analyzers.Roslyn\CodeGraph.CopilotAccelerator.Analyzers.Roslyn.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CodeGraph.CopilotAccelerator.Core\CodeGraph.CopilotAccelerator.Core.csproj" />
+  </ItemGroup>
+
 </Project>
